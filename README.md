@@ -6,7 +6,7 @@ git clone https://github.com/ciricc/storybot-for-beginners.git && cd storybot-fo
 ```
 2. Установите Node.JS 10 версии <a href="https://nodejs.org">nodejs.org</a>
 3. Откройте командную строку в папке `storybot-for-beginners` 
-<img src="https://prnt.sc/o576ml" alt="Неоходимо прописать cmd сверху там где путь к папке и нажать Enter"/>
+<img src="https://raw.github.com/ciricc/storybot-for-beginners/master/cmd.png" alt="Неоходимо прописать cmd сверху там где путь к папке и нажать Enter"/>
 4. Введите команду
 ```shell
 npm i
