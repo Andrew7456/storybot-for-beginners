@@ -31,7 +31,30 @@ async function main () {
     }
   });
 
-
+  await addNewBot({
+  bot: { // Настройки бота (имя, группы и т.д)
+    name: 'bot1',
+    groupIds: [1,2,3]
+  },
+  viewers: [ // Натсройки виюверов, которые будут смотреть истории
+    {
+      account: {
+        username: 'example@domain.ru',
+        password: 'password'
+      },
+      reauth: false // По документации
+    },
+    {
+      account: {
+        username: 'example@domain.ru',
+        password: 'password'
+      }
+    }, // через запятую другие аккаунты
+  ],
+  collector: { // Коллектор, которы будет искать истории пользователей (токены пользователей)
+    tokens: ['token1', 'token2']
+  }
+});
 
 
   /** Тут уже ваши полномочия все уже */
