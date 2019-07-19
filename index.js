@@ -5,7 +5,9 @@ async function main () {
   /** Здесь пишем код для бота */
 
   const botController = new Bot({
-    dbname: 'storybot' // Имя базы данных Mongo DB
+    database: {
+      filename: __dirname + '/storybot.sqlite'
+    } // Имя базы данных Mongo DB
   });
 
 
