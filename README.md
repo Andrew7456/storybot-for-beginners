@@ -72,6 +72,11 @@ pm2 logs 0
 Также можно посмотреть лог в файле лога (`~/.pm2/logs/index-(out|error).txt`),
 для пользователей Windows: `C:\Users\User\.pm2\logs\index-(out|error).txt`
 
+Перезапустить:
+```shell
+pm2 restart 0
+```
+
 Остановить:
 ```shell
 pm2 stop 0
