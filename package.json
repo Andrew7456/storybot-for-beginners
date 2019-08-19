@@ -11,6 +11,6 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "storybot": "0.0.3"
+    "storybot": "0.0.32"
   }
 }
